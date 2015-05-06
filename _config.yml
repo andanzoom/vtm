@@ -1,0 +1,7 @@
+# input and output
+source: source
+destination: _site
+
+# assets directory
+sass:
+  sass_dir: _scss

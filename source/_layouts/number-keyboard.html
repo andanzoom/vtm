@@ -1,0 +1,20 @@
+{% include head.html %}
+
+  <body{% if page.class %} class="page-{{ page.class }}"{% endif %}>
+
+  <!-- content -->
+  <div class="wrap">
+    <div class="ui-content">
+      <div class="left-content">
+        {{content}}
+      </div>
+      <div class="right-content">
+        <!-- keyboard -->
+        {% include component/number-keyboard.html %}
+      </div>
+    </div>
+  </div>
+
+  </body>
+</html>
+

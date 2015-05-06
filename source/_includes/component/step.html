@@ -1,0 +1,11 @@
+<div class="ui-step">
+  <ol>
+  {% for step in site.data.steps %}
+    <li{% if page.step > forloop.index %} class="finish" {% elsif page.step == forloop.index %} class="current"{% elsif page.step < forloop.index %} class="passed"{% endif %}>
+    <i class="step-index">{{ step.index }}</i>
+    <p class="step-text">{{ step.text }}</p>
+    <p class="line" {% if forloop.last %}style="display:none"{% endif %}><i class="first"></i><i class="last"></i></p>
+    </li>
+  {% endfor %}
+  </ol>
+</div>

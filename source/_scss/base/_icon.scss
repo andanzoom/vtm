@@ -1,0 +1,56 @@
+.icon {
+  @include inline-block;
+  vertical-align: -3px;
+}
+
+@each $icon in (
+    info,
+    success,
+    error,
+    warn,
+    clock
+  ) {
+  .icon-#{$icon} {
+    @include square(18px);
+    background: url(../images/icon/#{$icon}.png) no-repeat;
+  }
+}
+
+@each $icon in (
+    info-lg,
+    success-lg,
+    error-lg,
+    warn-lg
+  ) {
+  .icon-#{$icon} {
+    @include square(36px);
+    background: url(../images/icon/#{$icon}.png) no-repeat;
+  }
+}
+
+@each $icon in (
+    wait-lg
+  ) {
+  .icon-#{$icon} {
+    @include square(44px);
+    background: url(../images/icon/#{$icon}.gif) bottom no-repeat;
+  }
+}
+
+@each $icon in (
+    info-more-lg,
+    success-more-lg,
+    error-more-lg,
+    warn-more-lg
+  ) {
+  .icon-#{$icon} {
+    @include square(44px);
+    background: url(../images/icon/#{$icon}.png) no-repeat;
+  }
+}
+
+// Special
+.icon-sand-glass {
+  @include size(41px, 49px);
+  background: url(../images/icon/sand-glass.png) no-repeat top center;
+}

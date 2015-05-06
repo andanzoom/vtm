@@ -1,0 +1,25 @@
+.container {
+  width: 948px;
+  margin: 20px auto;
+  color: #4d4d4d;
+  border: 1px solid #c3c3c3;
+  background-color: #f2f2f2;
+  .open-inner {
+    padding: 50px 100px;
+    background-color: #fff;
+  }
+  .credit-inner {
+    position: relative;
+    @include clearfix;
+  }
+  .ui-content {
+    margin-left: 166px;
+    min-height: 600px;
+    padding: 30px 50px;
+    background-color: #fff;
+    overflow: hidden;
+  }
+  .xdt-inner {
+    padding-top: 30px !important;
+  }
+}

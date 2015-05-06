@@ -1,0 +1,103 @@
+.ui-keyboard {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 427px;
+  height: 795px;
+  background-color: rgba(255,255,255,0.13);
+  input:-ms-input-placeholder,
+  textarea:-ms-input-placeholder {
+      color: #a0bded;
+  }
+  input::-webkit-input-placeholder,
+  textarea::-webkit-input-placeholder {
+      color: #a0bded;
+  }
+  .input-content {
+    height: 123px;
+    width: 100%;
+    label {
+      display: block;
+      padding: 35px 0;
+      .keyboard-input {
+        outline: none;
+        height: 53px;
+        line-height: 53px;
+        font-size: 26px;
+        color: #a0bded;
+        text-align: center;
+        width: 407px;
+        padding: 0 10px;
+        border: 0 none;
+        background-color: rgba(255,255,255,0);
+      }
+    }
+  }
+  .keyboard-content {
+    position: relative;
+    margin-top: 85px;
+    .info {
+      position: absolute;
+      top: -50px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      color: #a0bded;
+      font-size: 16px;
+    }
+    ul {
+      @include clearfix;
+      li {
+        float: left;
+        width: 100px;
+        height: 100px;
+        margin: 0 0 34px 32px;
+        a {
+          position: relative;
+          display: block;
+          width: 96px;
+          height: 96px;
+          border-color: rgba(255,255,255,0.28);
+          border-width: 2px;
+          border-style: solid;
+          border-radius: 50%;
+          text-align: center;
+
+          color: #fff;
+          font-size: 48px;
+          b {
+            line-height: 96px;
+            font-weight: normal;
+          }
+          &:hover {
+            background: #75cd4a;
+            border-color: #75cd4a;
+          }
+          .back-icon {
+            width: 41px;
+            height: 25px;
+            margin-top: 5px;
+            background: url(../images/ico-list.png) 0 0 no-repeat;
+          }
+          .delete-icon {
+            width: 29px;
+            height: 33px;
+            margin-top: 5px;
+            background: url(../images/ico-list.png) 0 -30px no-repeat;
+          }
+        }
+        span {
+          position: absolute;
+          top: 66px;
+          left: 0;
+          width: 100px;
+          font-size: 18px;
+          display: block;
+          text-align: center;
+          color: rgba(255,255,255,0.28);
+        }
+      }
+    }
+  }
+}
+
