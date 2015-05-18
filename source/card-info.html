@@ -1,0 +1,26 @@
+---
+layout: default
+title: 银行卡
+class: card
+step: 3
+---
+
+<div class="card-content">
+  <div class="card-info">
+    <!-- 插入银行卡可直接读取卡号 -->
+    <!-- 无法识别，请取出银行卡并手动输入卡号 -->
+    <span>请取出银行卡</span>
+    <i class="arrow"></i>
+  </div>
+  <div class="card-inner">
+    <!-- error in out -->
+    <i class="out"></i>
+  </div>
+  <label>
+    <input tyle="text" class="input" placeholder="请输入银行卡号">
+  </label>
+  <label>
+    <input tyle="password" class="input" placeholder="请输入银行卡密码">
+  </label>
+</div>
+{% include component/button.html %}

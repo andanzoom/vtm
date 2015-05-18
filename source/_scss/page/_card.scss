@@ -1,0 +1,66 @@
+.page-card {
+  .card-content {
+    width: 442px;
+    margin: 0 auto;
+    text-align: center;
+    .card-info {
+      position: relative;
+      margin-top: 35px;
+      span {
+        display: inline-block;
+        color: #fff;
+        font-size: 20px;
+        height: 50px;
+        line-height: 50px;
+        border: 2px solid #fff;
+        border-radius: 25px;
+        padding: 0px 10px;
+      }
+      i {
+        position: relative;
+        font-size: 0;
+        content: "";
+        text-align: center;
+        margin: -2px auto 0 auto;
+        height: 14px;
+        width: 26px;
+        display: block;
+        background-color: #548ee2;
+        &.arrow {
+          background-image: url(../images/arrow.png);
+          background-position: 0px 0;
+          background-repeat: no-repeat;
+        }
+      }
+    }
+    .card-inner {
+      height: 220px;
+      i {
+        display: block;
+        margin: 5px auto 0 auto;
+        text-align: center;
+        &.error {
+          width: 280px;
+          height: 173px;
+          background: url(../images/error.png) 0 0 no-repeat;
+        }
+        &.in {
+          margin-left: 112px;
+          width: 278px;
+          height: 217px;
+          background: url(../images/in-bankcard.gif) 0 0 no-repeat;
+        }
+        &.out {
+          margin-left: 112px;
+          width: 278px;
+          height: 217px;
+          background: url(../images/out-bankcard.gif) 0 0 no-repeat;
+        }
+      }
+    }
+    label {
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+}

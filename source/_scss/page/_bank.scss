@@ -1,0 +1,144 @@
+.page-bank {
+  position: relative;
+  h1 {
+    margin: 50px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: normal;
+  }
+  .bank-list {
+    position: relative;
+    ul {
+      width: 900px;
+      margin: 0 auto;
+      @include clearfix;
+      li {
+        float: left;
+        height: 130px;
+        width: 130px;
+        overflow: hidden;
+        margin: 0 20px 20px 0;
+        a {
+          display: block;
+          background: #fff;
+          height: 130px;
+          width: 130px;
+          text-align: center;
+          &:hover {
+            background: #ffe86b;
+          }
+          p {
+            font-size: 26px;
+            color: #000;
+          }
+        }
+        i {
+          display: inline-block;
+          background-repeat: no-repeat;
+          vertical-align: middle;
+          background-image: url(../images/bank-list.png);
+          &.bank-pufa {
+            margin: 15px auto 5px auto;
+            width: 78px;
+            height: 66px;
+            background-position: 0 0;
+          }
+          &.bank-gongshang {
+            margin: 10px auto 5px auto;
+            width: 72px;
+            height: 72px;
+            background-position: 0 -70px;
+          }
+          &.bank-nongye {
+            margin: 10px auto 5px auto;
+            width: 73px;
+            height: 71px;
+            background-position: 0 -145px;
+          }
+          &.bank-zhaoshang {
+            margin: 10px auto 5px auto;
+            width: 71px;
+            height: 71px;
+            background-position: 0 -220px;
+          }
+          &.bank-zhongguo {
+            margin: 10px auto 5px auto;
+            width: 71px;
+            height: 71px;
+            background-position: 0 -295px;
+          }
+          &.bank-guangda {
+            margin: 25px auto 15px auto;
+            width: 105px;
+            height: 46px;
+            background-position: 0 -370px;
+          }
+          &.bank-pingan {
+            margin: 24px auto 10px auto;
+            width: 98px;
+            height: 52px;
+            background-position: 0 -420px;
+          }
+          &.bank-jianshe {
+            margin: 13px auto 5px auto;
+            width: 65px;
+            height: 68px;
+            background-position: 0 -480px;
+          }
+          &.bank-zhongxin {
+            margin: 15px auto 5px auto;
+            width: 67px;
+            height: 66px;
+            background-position: 0 -555px;
+          }
+          &.bank-youzheng {
+            margin: 15px auto 10px auto;
+            width: 65px;
+            height: 60px;
+            background-position: 0 -630px;
+          }
+          &.bank-jiaotong {
+            margin: 10px auto 5px auto;
+            width: 67px;
+            height: 70px;
+            background-position: 0 -695px;
+          }
+          &.bank-guangfa {
+            margin: 15px auto 5px auto;
+            width: 75px;
+            height: 65px;
+            background-position: 0 -770px;
+          }
+        }
+      }
+    }
+    .warm-info {
+      position: absolute;
+      top: 0px;
+      left: 320px;
+      background: #fffcd5;
+      width: 250px;
+      padding: 15px 25px;
+      height: 100px;
+      overflow: hidden;
+      h2 {
+        font-size: 18px;
+        color: #000;
+        font-weight: normal;
+      }
+      p {
+        color: #878585;
+        font-size: 14px;
+        line-height: 24px;
+      }
+    }
+  }
+  .info {
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+  }
+}

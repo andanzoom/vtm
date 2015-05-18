@@ -2,7 +2,25 @@
 layout: number-keyboard
 title: 首页
 step: 1
+class: home
 ---
 
 <!-- keyboard -->
 {% include component/step.html %}
+<div class="content-inner">
+  <div class="logo-content">
+    <img src="../images/logo.png" width="435" height="113">
+  </div>
+  <div class="login-content">
+    <label>
+      <input class="input mobile" type="text" placeholder="请输入手机号" maxlength="11">
+    </label>
+    <label>
+      <input class="input code" type="text" placeholder="请输入验证码" maxlength="4">
+      <a class="getcode" href="javascript:void(0)">获取验证码</a>
+    </label>
+  </div>
+  <div class="btn-content">
+    <button class="btn btn-next">下一步</button>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+<ul class="ui-review">
+  {% for review in site.data.reviews %}
+  <li>
+    <i class="index">{{ review.index }}</i>
+    <span class="text">{{ review.text }}</span>
+    <div class="button-content">
+      <a class="yes" href="#">是</a>
+      <a class="no" href="#">否</a>
+    </div>
+  </li>
+  {% endfor %}
+</ul>

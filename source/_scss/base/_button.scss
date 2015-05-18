@@ -5,7 +5,7 @@
   cursor: pointer;
   background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
   border: 1px solid transparent;
-  @include button-size(0, 10px, 14px, 34px, 5px);
+  @include button-size(0, 148px, 48px, 90px, 5px);
   white-space: nowrap;
 
   &,
@@ -76,4 +76,40 @@
 // lower button
 .btn-lw {
    @include button-size(0, 10px, 16px, 30px, 5px);
+}
+.ui-button {
+  position: absolute;
+  left: 0px;
+  bottom: 0;
+  @include clearfix;
+  height: 105px;
+  width: 100%;
+  button {
+    float: left;
+    display: block;
+    width: 50%;
+    text-align: center;
+    height: 105px;
+    line-height: 105px;
+    font-size: 48px;
+    color: #fff;
+    border: none;
+    &.next-btn {
+      background: #fad718;
+    }
+    &.next-btn.disabled {
+      background: #808080;
+      color: #a4a4a4;
+      cursor: default;
+    }
+    &.before-btn {
+      background: #8798e6;
+    }
+    &.exit-btn {
+      background: #ef806d;
+    }
+    &.submit-btn {
+      background: #f0cf17;
+    }
+  }
 }

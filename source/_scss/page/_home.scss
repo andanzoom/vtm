@@ -1,0 +1,39 @@
+.page-home {
+  .content-inner {
+    width: 442px;
+    margin: 0 auto;
+  }
+  .logo-content {
+    img {
+      display: block;
+      margin: 50px auto 60px auto;
+    }
+  }
+  .login-content {
+    label {
+      position: relative;
+      display: block;
+      margin-bottom: 40px;
+      .code {
+        width: 240px;
+      }
+    }
+    .getcode {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 145px;
+      border-radius: 5px;
+      display: block;
+      color: #577be0;
+      font-size: 24px;
+      text-align: center;
+      background: rgba(255,255,255,0.8);
+      height: 70px;
+      line-height: 70px;
+    }
+  }
+  .btn-content {
+    margin-top: 80px;
+  }
+}

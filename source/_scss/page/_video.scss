@@ -1,0 +1,108 @@
+.ui-start-video {
+  .info {
+    margin: 135px 0 80px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+  }
+  .start-inner {
+    .start-btn {
+      display: block;
+      margin: 0 auto;
+      padding: 20px 0;
+      width: 302px;
+      height: 127px;
+      background: #79d14f;
+      border-radius: 10px;
+      text-align: center;
+      i {
+        margin: 0px auto;
+        display: block;
+        width: 104px;
+        height: 81px;
+        background: url(../images/video.png) 0 0 no-repeat;
+      }
+      p {
+        font-size: 28px;
+        color: #fff;
+      }
+    }
+  }
+}
+
+.ui-videoing {
+  color: #fff;
+  h1 {
+    margin: 200px 0 70px 0;
+    font-size: 40px;
+    line-height: 44px;
+    text-align: center;
+    font-weight: normal;
+  }
+  p {
+    text-align: center;
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+.ui-success-video {
+  text-align: center;
+  .success-icon {
+    margin: 175px auto 10px auto;
+    width: 103px;
+    height: 103px;
+    content: "";
+    display: block;
+    background: url(../images/ico-list.png) 0 -75px no-repeat;
+  }
+  p {
+    color: #fff;
+    font-size: 24px;
+    line-height: 28px;
+    &.finish {
+      margin-bottom: 40px;
+    }
+  }
+}
+
+
+.ui-fail-video {
+  text-align: center;
+  color: #fff;
+  .fail-icon {
+    margin: 65px auto 10px auto;
+    width: 103px;
+    height: 103px;
+    content: "";
+    display: block;
+    background: url(../images/fail-ico.png) 0 0 no-repeat;
+  }
+  .fail {
+    font-size: 24px;
+  }
+  .revideo-inner {
+    margin-top: 70px;
+    .revideo-btn {
+      display: block;
+      margin: 0 auto;
+      padding: 20px 0;
+      width: 302px;
+      height: 127px;
+      background: #ea7b69;
+      border-radius: 10px;
+      text-align: center;
+      i {
+        margin: 0px auto;
+        display: block;
+        width: 104px;
+        height: 81px;
+        background: url(../images/video.png) 0 0 no-repeat;
+      }
+      p {
+        font-size: 28px;
+        color: #fff;
+      }
+    }
+  }
+}

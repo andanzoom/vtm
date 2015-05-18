@@ -1,0 +1,74 @@
+.page-result {
+  .success-content {
+    color: #fff;
+    text-align: center;
+    .icon-success {
+      margin: 35px auto 15px auto;
+      width: 103px;
+      height: 103px;
+      content: "";
+      display: block;
+      background: url(../images/ico-list.png) 0 -75px no-repeat;
+    }
+    h1 {
+      font-size: 36px;
+      font-weight: normal;
+    }
+    p {
+      font-size: 24px;
+    }
+  }
+  .info {
+    text-align: center;
+    width: 730px;
+    margin: 15px auto;
+    color: #ffe031;
+    font-size: 18px;
+    border: 2px solid #ffe031;
+    border-radius: 25px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .qcode-content {
+    ul {
+      width: 730px;
+      margin: 30px auto;
+      @include clearfix;
+      li {
+        float: left;
+        width: 230px;
+        margin-right: 20px;
+        &:last-child {
+          margin-right: 0;
+        }
+        p {
+          font-size: 20px;
+          color: #fff;
+          text-align: center;
+          height: 50px;
+          margin-bottom: 2px;
+          line-height: 50px;
+          border-radius: 10px 10px 0 0;
+          &.download {
+            background: #85c83a;
+          }
+          &.weixin {
+            background: #e9a52e;
+          }
+          &.more {
+            background: #f77975;
+          }
+        }
+        .qcode-inner {
+          width: 230px;
+          height: 232px;
+          background: rgba(255,255,255,0.28);
+          border-radius: 0 0 10px 10px;
+          img {
+            margin: 20px;
+          }
+        }
+      }
+    }
+  }
+}
