@@ -19,9 +19,7 @@
 @import "base/form";
 
 // Layout
-@import "layout/header";
-@import "layout/footer";
-@import "layout/container";
+@import "layout/screen";
 
 // Component
 @import "component/keyboard";
@@ -39,4 +37,5 @@
 @import "page/card";
 @import "page/review";
 @import "page/result";
+@import "page/anychat";
 // Vendor

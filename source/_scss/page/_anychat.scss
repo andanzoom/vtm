@@ -1,0 +1,102 @@
+.ui-anychat {
+  &.video-queue {
+    margin: 165px auto 0 auto;
+    text-align: center;
+    .icon-wait {
+      width: 236px;
+      height: 262px;
+      display: block;
+      margin: 0 auto;
+      background: url(../images/wait.png) 0 0 no-repeat;
+    }
+    .queue {
+      font-size: 40px;
+      color: #508fe0;
+      i {
+        color: #f7b500;
+        font-size: 62px;
+      }
+    }
+    .wait {
+      color: #525565;
+      font-size: 40px;
+    }
+  }
+  &.video-error,
+  &.video-success {
+    text-align: center;
+    margin: 220px auto 0 auto;
+    .icon-error {
+      width: 103px;
+      height: 102px;
+      display: block;
+      margin: 0 auto;
+      background: url(../images/fail-ico.png) 0 0 no-repeat;
+    }
+    .icon-success {
+      width: 103px;
+      height: 103px;
+      display: block;
+      margin: 0 auto;
+      background: url(../images/ico-list.png) 0 -75px no-repeat;
+    }
+    .cret {
+      margin: 20px 0 40px 0;
+      font-size: 40px;
+      color: #525565;
+    }
+    .info {
+      font-size: 40px;
+      color: #508fe0;
+    }
+  }
+  &.video-chat {
+    width: 1242px;
+    margin: 95px auto;
+    @include clearfix;
+    .chat-left {
+      float: left;
+      img {
+        border-radius: 10px;
+      }
+      .warm {
+        font-size: 36px;
+        color: #525565;
+        line-height: 36px;
+        margin: 15px 0;
+        i {
+          width: 43px;
+          height: 43px;
+          display: inline-block;
+          vertical-align: text-bottom;
+          margin-right: 10px;
+          content: "";
+          background: url(../images/info.gif) 0 0 no-repeat;
+        }
+      }
+      .info {
+        color: #508fe0;
+        font-size: 30px;
+      }
+    }
+    .chat-right {
+      float: right;
+      img {
+        border-radius: 10px;
+      }
+      .info-item {
+        margin: 25px 0;
+        span {
+          font-size: 30px;
+          line-height: 32px;
+          color: #525565;
+          &.name {
+            display: inline-block;
+            margin-right: 50px;
+            color: #508fe0;
+          }
+        }
+      }
+    }
+  }
+}

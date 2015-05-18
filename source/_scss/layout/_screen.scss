@@ -1,0 +1,36 @@
+.ui-screen {
+  width: 1920px;
+  height: 1080;
+  .screen-main {
+    @include clearfix;
+    height: 810px;
+    .screen-left {
+      float: left;
+      height: 810px;
+      width: 1440px;
+      background: #30323c;
+    }
+    .screen-right {
+      float: right;
+      width: 480px;
+      height: 810px;
+      background: url(../images/banner3.png) 0 0 no-repeat;
+    }
+  }
+  .screen-footer {
+    height: 270px;
+    @include clearfix;
+    .footer-left {
+      float: left;
+      height: 270px;
+      width: 1440px;
+      background: url(../images/banner1.png) 0 0 no-repeat;
+    }
+    .footer-right {
+      float: right;
+      width: 480px;
+      height: 270px;
+      background: url(../images/banner2.png) 0 0 no-repeat;
+    }
+  }
+}
